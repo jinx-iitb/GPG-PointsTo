@@ -1,0 +1,124 @@
+digraph GPG{
+node [shape=box]; 
+34[label=<<I>Start</I>>,xlabel="34", color=lightgray, fontcolor=black];
+34->35;
+35[label="",xlabel="35", color=lightgray, fontcolor=black];
+35->36;
+35->37;
+36[label="tmp3,1-->stderr,1 [0]
+",xlabel="36", color=lightgray, fontcolor=black];
+36->75;
+37[label="arrayidx,1-->spec_fd,0 [0]
+",xlabel="37", color=lightgray, fontcolor=black];
+37->38;
+38[label="len,1-->arrayidx,0 [0]
+",xlabel="38", color=lightgray, fontcolor=black];
+38->39;
+39[label="arrayidx5,1-->spec_fd,0 [0]
+",xlabel="39", color=lightgray, fontcolor=black];
+39->40;
+40[label="pos,1-->arrayidx5,0 [0]
+",xlabel="40", color=lightgray, fontcolor=black];
+40->41;
+41[label="",xlabel="41", color=lightgray, fontcolor=black];
+41->42;
+41->52;
+42[label="arrayidx8,1-->spec_fd,0 [0]
+",xlabel="42", color=lightgray, fontcolor=black];
+42->43;
+43[label="buf,1-->arrayidx8,0 [0]
+",xlabel="43", color=lightgray, fontcolor=black];
+43->44;
+44[label="tmp12,1-->buf,2 [0]
+",xlabel="44", color=lightgray, fontcolor=black];
+44->45;
+45[label="add.ptr,1-->tmp12,0 [0]
+",xlabel="45", color=lightgray, fontcolor=black];
+45->46;
+45->47;
+46[label="",xlabel="46", color=lightgray, fontcolor=black];
+46->52;
+47[label="",xlabel="47", color=lightgray, fontcolor=black];
+47->48;
+47->49;
+48[label="tmp16,1-->stderr,1 [0]
+",xlabel="48", color=lightgray, fontcolor=black];
+48->75;
+49[label="arrayidx22,1-->spec_fd,0 [0]
+",xlabel="49", color=lightgray, fontcolor=black];
+49->50;
+50[label="len23,1-->arrayidx22,0 [0]
+",xlabel="50", color=lightgray, fontcolor=black];
+50->51;
+51[label="",xlabel="51", color=lightgray, fontcolor=black];
+51->41;
+52[label="",xlabel="52", color=lightgray, fontcolor=black];
+52->53;
+53[label="arrayidx27,1-->spec_fd,0 [0]
+",xlabel="53", color=lightgray, fontcolor=black];
+53->54;
+54[label="len28,1-->arrayidx27,0 [0]
+",xlabel="54", color=lightgray, fontcolor=black];
+54->55;
+54->74;
+55[label="arrayidx32,1-->spec_fd,0 [0]
+",xlabel="55", color=lightgray, fontcolor=black];
+55->56;
+56[label="len33,1-->arrayidx32,0 [0]
+",xlabel="56", color=lightgray, fontcolor=black];
+56->57;
+57[label="arrayidx35,1-->spec_fd,0 [0]
+",xlabel="57", color=lightgray, fontcolor=black];
+57->58;
+58[label="len36,1-->arrayidx35,0 [0]
+",xlabel="58", color=lightgray, fontcolor=black];
+58->59;
+58->61;
+59[label="arrayidx41,1-->spec_fd,0 [0]
+",xlabel="59", color=lightgray, fontcolor=black];
+59->60;
+60[label="len42,1-->arrayidx41,0 [0]
+",xlabel="60", color=lightgray, fontcolor=black];
+60->61;
+61[label="",xlabel="61", color=lightgray, fontcolor=black];
+61->62;
+61->63;
+62[label="",xlabel="62", color=lightgray, fontcolor=black];
+62->63;
+63[label="arrayidx50,1-->spec_fd,0 [0]
+",xlabel="63", color=lightgray, fontcolor=black];
+63->64;
+64[label="buf51,1-->arrayidx50,0 [0]
+",xlabel="64", color=lightgray, fontcolor=black];
+64->65;
+65[label="tmp39,1-->buf51,2 [0]
+",xlabel="65", color=lightgray, fontcolor=black];
+65->66;
+66[label="arrayidx53,1-->spec_fd,0 [0]
+",xlabel="66", color=lightgray, fontcolor=black];
+66->67;
+67[label="len54,1-->arrayidx53,0 [0]
+",xlabel="67", color=lightgray, fontcolor=black];
+67->68;
+68[label="add.ptr56,1-->tmp39,0 [0]
+",xlabel="68", color=lightgray, fontcolor=black];
+68->69;
+69[label="arrayidx58,1-->spec_fd,0 [0]
+",xlabel="69", color=lightgray, fontcolor=black];
+69->70;
+70[label="buf59,1-->arrayidx58,0 [0]
+",xlabel="70", color=lightgray, fontcolor=black];
+70->71;
+71[label="tmp43,1-->buf59,2 [0]
+",xlabel="71", color=lightgray, fontcolor=black];
+71->72;
+72[label="arrayidx62,1-->spec_fd,0 [0]
+",xlabel="72", color=lightgray, fontcolor=black];
+72->73;
+73[label="len63,1-->arrayidx62,0 [0]
+",xlabel="73", color=lightgray, fontcolor=black];
+73->53;
+74[label="",xlabel="74", color=lightgray, fontcolor=black];
+74->75;
+75[label=<<I>End</I>>,xlabel="75", color=lightgray, fontcolor=black];
+}

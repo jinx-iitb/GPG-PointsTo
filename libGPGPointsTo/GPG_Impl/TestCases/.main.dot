@@ -1,0 +1,12 @@
+digraph "CFG for 'main' function" {
+	label="CFG for 'main' function";
+
+	Node0x1d355d0 [shape=record,label="{bb:\l  store i32 10, i32* @b, align 4, !dbg !19\l  %tmp2 = call i32 (i8*, ...) @__isoc99_scanf(i8* getelementptr inbounds ([3 x\l... i8], [3 x i8]* @.str, i64 0, i64 0), i32* @n), !dbg !20\l  %tmp3 = load i32, i32* @n, align 4, !dbg !21\l  %tmp4 = srem i32 %tmp3, 2, !dbg !23\l  %tmp5 = icmp eq i32 %tmp4, 0, !dbg !24\l  br i1 %tmp5, label %bb6, label %bb7, !dbg !25\l|{<s0>T|<s1>F}}"];
+	Node0x1d355d0:s0 -> Node0x1d36370;
+	Node0x1d355d0:s1 -> Node0x1d36440;
+	Node0x1d36370 [shape=record,label="{bb6:                                              \l  call void @f(), !dbg !26\l  br label %bb8, !dbg !28\l}"];
+	Node0x1d36370 -> Node0x1d36810;
+	Node0x1d36440 [shape=record,label="{bb7:                                              \l  call void @g(), !dbg !29\l  br label %bb8\l}"];
+	Node0x1d36440 -> Node0x1d36810;
+	Node0x1d36810 [shape=record,label="{bb8:                                              \l  %tmp9 = load i32*, i32** @p, align 8, !dbg !31\l  %tmp10 = load i32, i32* %tmp9, align 4, !dbg !32\l  %tmp11 = add nsw i32 %tmp10, 3, !dbg !33\l  call void @llvm.dbg.value(metadata i32 %tmp11, metadata !34, metadata\l... !DIExpression()), !dbg !35\l  %tmp13 = call i32 (i8*, ...) @printf(i8* getelementptr inbounds ([8 x i8],\l... [8 x i8]* @.str.1, i64 0, i64 0), i32 %tmp11), !dbg !36\l  ret i32 0, !dbg !37\l}"];
+}

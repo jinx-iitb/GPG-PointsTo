@@ -1,0 +1,6 @@
+GPB Block:31 {}
+GPB Block:32 {}
+GPB Block:33 {}
+------------------------
+Total GPBs : 3
+Total GPUs : 0

@@ -1,0 +1,1 @@
+/usr/bin/c++   -fPIC -fvisibility-inlines-hidden -Werror=date-time -w -fPIC -fvisibility-inlines-hidden -Werror=date-time -w -g   CMakeFiles/GPGPointsTo.dir/main.cpp.o  -o ../../bin/GPGPointsTo   -L/usr/lib/llvm-10/lib  -Wl,-rpath,/usr/lib/llvm-10/lib:/usr/local/lib /usr/local/lib/libSpatial.so /usr/local/lib/libTransformIR.so /usr/local/lib/libLLVMGPGImpl.so 

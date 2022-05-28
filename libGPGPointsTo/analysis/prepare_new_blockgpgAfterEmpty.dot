@@ -1,0 +1,29 @@
+digraph GPG{
+node [shape=box]; 
+86[label=<<I>Start</I>>,xlabel="86", color=lightgray, fontcolor=black];
+86->87;
+87[label="nblock,1-->,0 [0]
+",xlabel="87", color=lightgray, fontcolor=black];
+87->88;
+88[label="numZ,1-->,0 [0]
+",xlabel="88", color=lightgray, fontcolor=black];
+88->89;
+89[label="state_out_pos,1-->,0 [0]
+",xlabel="89", color=lightgray, fontcolor=black];
+89->90;
+90[label="blockCRC,1-->,0 [0]
+",xlabel="90", color=lightgray, fontcolor=black];
+90->92;
+90->95;
+92[label="inUse,1-->,0 [0]
+",xlabel="92", color=lightgray, fontcolor=black];
+92->93;
+93[label="arrayidx,1-->inUse,0 [0]
+",xlabel="93", color=lightgray, fontcolor=black];
+93->92;
+93->95;
+95[label="blockNo,1-->,0 [0]
+",xlabel="95", color=lightgray, fontcolor=black];
+95->96;
+96[label=<<I>End</I>>,xlabel="96", color=lightgray, fontcolor=black];
+}

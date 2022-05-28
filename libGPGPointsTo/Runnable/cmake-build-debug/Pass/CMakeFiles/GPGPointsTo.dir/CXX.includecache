@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/Pass/main.cpp
+GPGPTAnalysis/Driver.h
+/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/Pass/GPGPTAnalysis/Driver.h
+PointsToDump/PTWriter.h
+/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/Pass/PointsToDump/PTWriter.h
+PointsToDump/PTReader.h
+/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/Pass/PointsToDump/PTReader.h
+PointsToDump/FS_PTReader.h
+/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/Pass/PointsToDump/FS_PTReader.h
+PTEval/EvaluateAnalysis.h
+/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/Pass/PTEval/EvaluateAnalysis.h
+

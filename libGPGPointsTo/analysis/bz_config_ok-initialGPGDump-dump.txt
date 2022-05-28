@@ -1,0 +1,6 @@
+GPB Block:79 {}
+GPB Block:80 {}
+GPB Block:81 {}
+------------------------
+Total GPBs : 3
+Total GPUs : 0

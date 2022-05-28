@@ -1,0 +1,6 @@
+/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/cmake-build-debug/CMakeFiles/intrinsics_gen.dir
+/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/cmake-build-debug/Pass/CMakeFiles/rebuild_cache.dir
+/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/cmake-build-debug/Pass/CMakeFiles/edit_cache.dir
+/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/cmake-build-debug/Pass/CMakeFiles/GPGPointsTo.dir

@@ -1,0 +1,45 @@
+GPB Block:34 {}
+GPB Block:35 {}
+GPB Block:36 {(tmp3;1)-->(stderr;1),}
+GPB Block:37 {(arrayidx;1)-->(spec_fd;0),}
+GPB Block:38 {(len;1)-->(arrayidx;0),}
+GPB Block:39 {(arrayidx5;1)-->(spec_fd;0),}
+GPB Block:40 {(pos;1)-->(arrayidx5;0),}
+GPB Block:41 {}
+GPB Block:42 {(arrayidx8;1)-->(spec_fd;0),}
+GPB Block:43 {(buf;1)-->(arrayidx8;0),}
+GPB Block:44 {(tmp12;1)-->(buf;2),}
+GPB Block:45 {(add.ptr;1)-->(tmp12;0),}
+GPB Block:46 {}
+GPB Block:47 {}
+GPB Block:48 {(tmp16;1)-->(stderr;1),}
+GPB Block:49 {(arrayidx22;1)-->(spec_fd;0),}
+GPB Block:50 {(len23;1)-->(arrayidx22;0),}
+GPB Block:51 {}
+GPB Block:52 {}
+GPB Block:53 {(arrayidx27;1)-->(spec_fd;0),}
+GPB Block:54 {(len28;1)-->(arrayidx27;0),}
+GPB Block:55 {(arrayidx32;1)-->(spec_fd;0),}
+GPB Block:56 {(len33;1)-->(arrayidx32;0),}
+GPB Block:57 {(arrayidx35;1)-->(spec_fd;0),}
+GPB Block:58 {(len36;1)-->(arrayidx35;0),}
+GPB Block:59 {(arrayidx41;1)-->(spec_fd;0),}
+GPB Block:60 {(len42;1)-->(arrayidx41;0),}
+GPB Block:61 {}
+GPB Block:62 {}
+GPB Block:63 {(arrayidx50;1)-->(spec_fd;0),}
+GPB Block:64 {(buf51;1)-->(arrayidx50;0),}
+GPB Block:65 {(tmp39;1)-->(buf51;2),}
+GPB Block:66 {(arrayidx53;1)-->(spec_fd;0),}
+GPB Block:67 {(len54;1)-->(arrayidx53;0),}
+GPB Block:68 {(add.ptr56;1)-->(tmp39;0),}
+GPB Block:69 {(arrayidx58;1)-->(spec_fd;0),}
+GPB Block:70 {(buf59;1)-->(arrayidx58;0),}
+GPB Block:71 {(tmp43;1)-->(buf59;2),}
+GPB Block:72 {(arrayidx62;1)-->(spec_fd;0),}
+GPB Block:73 {(len63;1)-->(arrayidx62;0),}
+GPB Block:74 {}
+GPB Block:75 {}
+------------------------
+Total GPBs : 42
+Total GPUs : 31

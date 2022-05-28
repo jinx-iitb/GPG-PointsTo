@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="slim"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\usr\lib\llvm-10\;CMake Files\..\..\..\..\..\..\usr\lib\llvm-10\cmake\;CMake Files\..\..\..\..\..\..\usr\lib\llvm-10\lib\;CMake Files\..\..\..\..\..\..\usr\lib\llvm-10\lib\cmake\;CMake Files\..\..\..\..\..\..\usr\lib\llvm-10\lib\cmake\llvm\;CMake Files\test-slim\;CMake Files\test-slim\spatial\;CMake Files\test-slim\spatial\lib\;CMake Files\test-slim\spatial\lib\Token\;CMake Files\test-slim\spatial\lib\Benchmark\;CMake Files\test-slim\spatial\lib\Worklist\;CMake Files\test-slim\spatial\lib\Utils\;CMake Files\test-slim\spatial\lib\InstInfo\;CMake Files\test-slim\spatial\lib\InstModel\;CMake Files\test-slim\spatial\lib\InstModel\GenericInstModel\;CMake Files\test-slim\spatial\lib\InstModel\LFCPAInstModel\;CMake Files\GPG_Impl\;CMake Files\Runnable\;CMake Files\Runnable\Pass\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TransformIR">
+				<Option output="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/CMakeFiles/TransformIR.dir/TransformIR.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/usr/lib/llvm-10/include"/>
+					<Add directory="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/include"/>
+					<Add directory="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/spatial/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/Makefile&quot;  VERBOSE=1 TransformIR"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TransformIR/fast">
+				<Option output="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/CMakeFiles/TransformIR.dir/TransformIR.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/usr/lib/llvm-10/include"/>
+					<Add directory="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/include"/>
+					<Add directory="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/spatial/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/Makefile&quot;  VERBOSE=1 TransformIR/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Spatial">
+				<Option output="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/lib/libSpatial.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/usr/lib/llvm-10/include"/>
+					<Add directory="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/include"/>
+					<Add directory="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/spatial/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Makefile&quot;  VERBOSE=1 Spatial"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Spatial/fast">
+				<Option output="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/lib/libSpatial.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/usr/lib/llvm-10/include"/>
+					<Add directory="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/include"/>
+					<Add directory="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/spatial/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Makefile&quot;  VERBOSE=1 Spatial/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Token">
+				<Option output="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Token/CMakeFiles/Token.dir/Token.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Token"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/usr/lib/llvm-10/include"/>
+					<Add directory="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/include"/>
+					<Add directory="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/spatial/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Token/Makefile&quot;  VERBOSE=1 Token"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Token/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Token/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Token/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Token/fast">
+				<Option output="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Token/CMakeFiles/Token.dir/Token.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Token"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/usr/lib/llvm-10/include"/>
+					<Add directory="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/include"/>
+					<Add directory="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/spatial/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Token/Makefile&quot;  VERBOSE=1 Token/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Token/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Token/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Token/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Benchmark">
+				<Option output="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Benchmark/CMakeFiles/Benchmark.dir/Benchmark.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Benchmark"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/usr/lib/llvm-10/include"/>
+					<Add directory="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/include"/>
+					<Add directory="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/spatial/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Benchmark/Makefile&quot;  VERBOSE=1 Benchmark"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Benchmark/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Benchmark/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Benchmark/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Benchmark/fast">
+				<Option output="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Benchmark/CMakeFiles/Benchmark.dir/Benchmark.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Benchmark"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/usr/lib/llvm-10/include"/>
+					<Add directory="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/include"/>
+					<Add directory="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/spatial/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Benchmark/Makefile&quot;  VERBOSE=1 Benchmark/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Benchmark/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Benchmark/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Benchmark/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Worklist">
+				<Option output="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Worklist/CMakeFiles/Worklist.dir/Worklist.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Worklist"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/usr/lib/llvm-10/include"/>
+					<Add directory="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/include"/>
+					<Add directory="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/spatial/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Worklist/Makefile&quot;  VERBOSE=1 Worklist"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Worklist/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Worklist/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Worklist/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Worklist/fast">
+				<Option output="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Worklist/CMakeFiles/Worklist.dir/Worklist.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Worklist"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/usr/lib/llvm-10/include"/>
+					<Add directory="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/include"/>
+					<Add directory="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/spatial/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Worklist/Makefile&quot;  VERBOSE=1 Worklist/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Worklist/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Worklist/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Worklist/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Utils">
+				<Option output="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Utils/CMakeFiles/Utils.dir/Utils.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Utils"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/usr/lib/llvm-10/include"/>
+					<Add directory="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/include"/>
+					<Add directory="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/spatial/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Utils/Makefile&quot;  VERBOSE=1 Utils"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Utils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Utils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Utils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Utils/fast">
+				<Option output="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Utils/CMakeFiles/Utils.dir/Utils.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Utils"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/usr/lib/llvm-10/include"/>
+					<Add directory="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/include"/>
+					<Add directory="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/spatial/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Utils/Makefile&quot;  VERBOSE=1 Utils/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Utils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Utils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Utils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InstInfo">
+				<Option output="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstInfo/CMakeFiles/InstInfo.dir/InstInfo.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstInfo"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/usr/lib/llvm-10/include"/>
+					<Add directory="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/include"/>
+					<Add directory="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/spatial/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstInfo/Makefile&quot;  VERBOSE=1 InstInfo"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstInfo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstInfo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstInfo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InstInfo/fast">
+				<Option output="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstInfo/CMakeFiles/InstInfo.dir/InstInfo.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstInfo"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/usr/lib/llvm-10/include"/>
+					<Add directory="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/include"/>
+					<Add directory="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/spatial/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstInfo/Makefile&quot;  VERBOSE=1 InstInfo/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstInfo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstInfo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstInfo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InstModel">
+				<Option output="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstModel/CMakeFiles/InstModel.dir/InstModel.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstModel"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/usr/lib/llvm-10/include"/>
+					<Add directory="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/include"/>
+					<Add directory="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/spatial/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstModel/Makefile&quot;  VERBOSE=1 InstModel"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstModel/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstModel/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstModel/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InstModel/fast">
+				<Option output="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstModel/CMakeFiles/InstModel.dir/InstModel.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstModel"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/usr/lib/llvm-10/include"/>
+					<Add directory="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/include"/>
+					<Add directory="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/spatial/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstModel/Makefile&quot;  VERBOSE=1 InstModel/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstModel/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstModel/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstModel/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GenericInstModel">
+				<Option output="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstModel/GenericInstModel/CMakeFiles/GenericInstModel.dir/GenericInstModel.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstModel/GenericInstModel"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/usr/lib/llvm-10/include"/>
+					<Add directory="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/include"/>
+					<Add directory="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/spatial/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstModel/GenericInstModel/Makefile&quot;  VERBOSE=1 GenericInstModel"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstModel/GenericInstModel/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstModel/GenericInstModel/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstModel/GenericInstModel/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GenericInstModel/fast">
+				<Option output="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstModel/GenericInstModel/CMakeFiles/GenericInstModel.dir/GenericInstModel.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstModel/GenericInstModel"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/usr/lib/llvm-10/include"/>
+					<Add directory="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/include"/>
+					<Add directory="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/spatial/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstModel/GenericInstModel/Makefile&quot;  VERBOSE=1 GenericInstModel/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstModel/GenericInstModel/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstModel/GenericInstModel/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstModel/GenericInstModel/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LFCPAInstModel">
+				<Option output="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstModel/LFCPAInstModel/CMakeFiles/LFCPAInstModel.dir/LFCPAInstModel.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstModel/LFCPAInstModel"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/usr/lib/llvm-10/include"/>
+					<Add directory="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/include"/>
+					<Add directory="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/spatial/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstModel/LFCPAInstModel/Makefile&quot;  VERBOSE=1 LFCPAInstModel"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstModel/LFCPAInstModel/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstModel/LFCPAInstModel/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstModel/LFCPAInstModel/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LFCPAInstModel/fast">
+				<Option output="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstModel/LFCPAInstModel/CMakeFiles/LFCPAInstModel.dir/LFCPAInstModel.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstModel/LFCPAInstModel"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/usr/lib/llvm-10/include"/>
+					<Add directory="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/include"/>
+					<Add directory="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/spatial/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstModel/LFCPAInstModel/Makefile&quot;  VERBOSE=1 LFCPAInstModel/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstModel/LFCPAInstModel/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstModel/LFCPAInstModel/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstModel/LFCPAInstModel/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Benchmark/CMakeFiles/Benchmark.dir/PTABenchmark.cpp.o">
+			<Option target="Spatial"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Benchmark/CMakeFiles/Benchmark.dir/PointsToBenchmark.cpp.o">
+			<Option target="Spatial"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstInfo/CMakeFiles/InstInfo.dir/InstInfo.cpp.o">
+			<Option target="Spatial"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstModel/CMakeFiles/InstModel.dir/InstModel.cpp.o">
+			<Option target="Spatial"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstModel/GenericInstModel/CMakeFiles/GenericInstModel.dir/GenericInstModel.cpp.o">
+			<Option target="Spatial"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/InstModel/LFCPAInstModel/CMakeFiles/LFCPAInstModel.dir/LFCPAInstModel.cpp.o">
+			<Option target="Spatial"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Token/CMakeFiles/Token.dir/Token.cpp.o">
+			<Option target="Spatial"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Token/CMakeFiles/Token.dir/TokenWrapper.cpp.o">
+			<Option target="Spatial"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Utils/CMakeFiles/Utils.dir/CFGUtils.cpp.o">
+			<Option target="Spatial"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Utils/CMakeFiles/Utils.dir/ReplaceIRVar.cpp.o">
+			<Option target="Spatial"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/cmake-build-debug/test-slim/spatial/lib/Worklist/CMakeFiles/Worklist.dir/Worklist.cpp.o">
+			<Option target="Spatial"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/TransformIR.cpp">
+			<Option target="TransformIR"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/spatial/lib/Benchmark/PTABenchmark.cpp">
+			<Option target="Benchmark"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/spatial/lib/Benchmark/PointsToBenchmark.cpp">
+			<Option target="Benchmark"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/spatial/lib/InstInfo/InstInfo.cpp">
+			<Option target="InstInfo"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/spatial/lib/InstModel/GenericInstModel/GenericInstModel.cpp">
+			<Option target="GenericInstModel"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/spatial/lib/InstModel/InstModel.cpp">
+			<Option target="InstModel"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/spatial/lib/InstModel/LFCPAInstModel/LFCPAInstModel.cpp">
+			<Option target="LFCPAInstModel"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/spatial/lib/Token/Token.cpp">
+			<Option target="Token"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/spatial/lib/Token/TokenWrapper.cpp">
+			<Option target="Token"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/spatial/lib/Utils/CFGUtils.cpp">
+			<Option target="Utils"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/spatial/lib/Utils/ReplaceIRVar.cpp">
+			<Option target="Utils"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/spatial/lib/Worklist/Worklist.cpp">
+			<Option target="Worklist"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/../../../../../../usr/lib/llvm-10/cmake/LLVMConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\llvm-10\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/../../../../../../usr/lib/llvm-10/cmake/LLVMConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\llvm-10\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/../../../../../../usr/lib/llvm-10/lib/cmake/llvm/AddLLVM.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\llvm-10\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/../../../../../../usr/lib/llvm-10/lib/cmake/llvm/CheckCompilerVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\llvm-10\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/../../../../../../usr/lib/llvm-10/lib/cmake/llvm/CheckLinkerFlag.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\llvm-10\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/../../../../../../usr/lib/llvm-10/lib/cmake/llvm/DetermineGCCCompatible.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\llvm-10\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/../../../../../../usr/lib/llvm-10/lib/cmake/llvm/HandleLLVMOptions.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\llvm-10\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/../../../../../../usr/lib/llvm-10/lib/cmake/llvm/HandleLLVMStdlib.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\llvm-10\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/../../../../../../usr/lib/llvm-10/lib/cmake/llvm/LLVM-Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\llvm-10\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/../../../../../../usr/lib/llvm-10/lib/cmake/llvm/LLVMExports-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\llvm-10\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/../../../../../../usr/lib/llvm-10/lib/cmake/llvm/LLVMExports.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\llvm-10\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/../../../../../../usr/lib/llvm-10/lib/cmake/llvm/LLVMProcessSources.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\llvm-10\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test-slim\"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/spatial/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test-slim\spatial\"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/spatial/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test-slim\spatial\lib\"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/spatial/lib/Token/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test-slim\spatial\lib\Token\"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/spatial/lib/Benchmark/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test-slim\spatial\lib\Benchmark\"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/spatial/lib/Worklist/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test-slim\spatial\lib\Worklist\"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/spatial/lib/Utils/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test-slim\spatial\lib\Utils\"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/spatial/lib/InstInfo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test-slim\spatial\lib\InstInfo\"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/spatial/lib/InstModel/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test-slim\spatial\lib\InstModel\"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/spatial/lib/InstModel/GenericInstModel/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test-slim\spatial\lib\InstModel\GenericInstModel\"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/test-slim/spatial/lib/InstModel/LFCPAInstModel/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test-slim\spatial\lib\InstModel\LFCPAInstModel\"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/GPG_Impl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GPG_Impl\"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Runnable\"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/Pass/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Runnable\Pass\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,6 @@
+digraph GPG{
+node [shape=box]; 
+76[label=<<I>Start</I>>,xlabel="76", color=lightgray, fontcolor=black];
+76->78;
+78[label=<<I>End</I>>,xlabel="78", color=lightgray, fontcolor=black];
+}

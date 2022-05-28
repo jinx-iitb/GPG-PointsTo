@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/GPGPointsTo.dir/main.cpp.o  -o GPGPointsTo  -lLLVMGPGImpl -lLLVMSupport -lLLVMCore -lLLVMIRReader -lLLVMLinker -lLLVMBitWriter 

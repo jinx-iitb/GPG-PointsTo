@@ -1,0 +1,6 @@
+GPB Block:1027 {}
+GPB Block:1028 {}
+GPB Block:1029 {}
+------------------------
+Total GPBs : 3
+Total GPUs : 0

@@ -1,0 +1,14 @@
+GPB Block:86 {}
+GPB Block:87 {(nblock;1)-->(;0),}
+GPB Block:88 {(numZ;1)-->(;0),}
+GPB Block:89 {(state_out_pos;1)-->(;0),}
+GPB Block:90 {(blockCRC;1)-->(;0),}
+GPB Block:91 {}
+GPB Block:92 {(inUse;1)-->(;0),}
+GPB Block:93 {(arrayidx;1)-->(inUse;0),}
+GPB Block:94 {}
+GPB Block:95 {(blockNo;1)-->(;0),}
+GPB Block:96 {}
+------------------------
+Total GPBs : 11
+Total GPUs : 7

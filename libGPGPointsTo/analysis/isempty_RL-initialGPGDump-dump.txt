@@ -1,0 +1,10 @@
+GPB Block:607 {}
+GPB Block:608 {(state_in_ch;1)-->(;0),}
+GPB Block:609 {(state_in_len;1)-->(;0),}
+GPB Block:610 {}
+GPB Block:611 {}
+GPB Block:612 {}
+GPB Block:613 {}
+------------------------
+Total GPBs : 7
+Total GPUs : 2

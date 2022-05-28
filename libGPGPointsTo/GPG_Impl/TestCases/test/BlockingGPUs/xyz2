@@ -1,0 +1,378 @@
+SCCs, Call graph of the program in Bottom-up order(Postorder):
+SCC #1 : f
+SCC #2 : main
+Summary of functionf
+Block: 1
+In  GPB Block: 1
+( p , 1)-->(p' , 1) Stmt_Id: 0
+( p , 2)-->(p' , 2) Stmt_Id: 0
+( w , 1)-->(w' , 1) Stmt_Id: 0
+( x , 1)-->(x' , 1) Stmt_Id: 0
+( y , 1)-->(y' , 1) Stmt_Id: 0
+( z , 1)-->(z' , 1) Stmt_Id: 0
+Out  GPB Block: 1
+( p , 1)-->(p' , 1) Stmt_Id: 0
+( p , 2)-->(p' , 2) Stmt_Id: 0
+( w , 1)-->(w' , 1) Stmt_Id: 0
+( x , 1)-->(x' , 1) Stmt_Id: 0
+( y , 1)-->(y' , 1) Stmt_Id: 0
+( z , 1)-->(z' , 1) Stmt_Id: 0
+
+Block: 2
+In  GPB Block: 2
+( p , 1)-->(p' , 1) Stmt_Id: 0
+( p , 2)-->(p' , 2) Stmt_Id: 0
+( w , 1)-->(w' , 1) Stmt_Id: 0
+( x , 1)-->(x' , 1) Stmt_Id: 0
+( y , 1)-->(y' , 1) Stmt_Id: 0
+( z , 1)-->(z' , 1) Stmt_Id: 0
+Gen  GPB Block: 2
+( y , 1)-->(a , 0) Stmt_Id: 7
+Blocked  GPB Block: 2
+Killed  GPB Block: 2
+( y , 1)-->(y' , 1) Stmt_Id: 0
+ In-Kill  GPB Block: 2
+( p , 1)-->(p' , 1) Stmt_Id: 0
+( p , 2)-->(p' , 2) Stmt_Id: 0
+( w , 1)-->(w' , 1) Stmt_Id: 0
+( x , 1)-->(x' , 1) Stmt_Id: 0
+( z , 1)-->(z' , 1) Stmt_Id: 0
+BoundarySetduetoBlocking  GPB Block: 2
+Out  GPB Block: 2
+( p , 1)-->(p' , 1) Stmt_Id: 0
+( p , 2)-->(p' , 2) Stmt_Id: 0
+( w , 1)-->(w' , 1) Stmt_Id: 0
+( x , 1)-->(x' , 1) Stmt_Id: 0
+( z , 1)-->(z' , 1) Stmt_Id: 0
+( y , 1)-->(a , 0) Stmt_Id: 7
+
+Block: 3
+In  GPB Block: 3
+( p , 1)-->(p' , 1) Stmt_Id: 0
+( p , 2)-->(p' , 2) Stmt_Id: 0
+( w , 1)-->(w' , 1) Stmt_Id: 0
+( x , 1)-->(x' , 1) Stmt_Id: 0
+( z , 1)-->(z' , 1) Stmt_Id: 0
+( y , 1)-->(a , 0) Stmt_Id: 7
+Gen  GPB Block: 3
+( p' , 2)-->(b , 0) Stmt_Id: 8
+Blocked  GPB Block: 3
+( w , 1)-->(w' , 1) Stmt_Id: 0
+( x , 1)-->(x' , 1) Stmt_Id: 0
+( z , 1)-->(z' , 1) Stmt_Id: 0
+( y , 1)-->(a , 0) Stmt_Id: 7
+Killed  GPB Block: 3
+( w , 1)-->(w' , 1) Stmt_Id: 0
+( x , 1)-->(x' , 1) Stmt_Id: 0
+( z , 1)-->(z' , 1) Stmt_Id: 0
+( y , 1)-->(a , 0) Stmt_Id: 7
+ In-Kill  GPB Block: 3
+( p , 1)-->(p' , 1) Stmt_Id: 0
+( p , 2)-->(p' , 2) Stmt_Id: 0
+BoundarySetduetoBlocking  GPB Block: 3
+( w , 1)-->(w' , 1) Stmt_Id: 0
+( x , 1)-->(x' , 1) Stmt_Id: 0
+( y , 1)-->(y' , 1) Stmt_Id: 0
+( z , 1)-->(z' , 1) Stmt_Id: 0
+Out  GPB Block: 3
+( p , 1)-->(p' , 1) Stmt_Id: 0
+( p , 2)-->(p' , 2) Stmt_Id: 0
+( w , 1)-->(w' , 1) Stmt_Id: 0
+( x , 1)-->(x' , 1) Stmt_Id: 0
+( y , 1)-->(y' , 1) Stmt_Id: 0
+( z , 1)-->(z' , 1) Stmt_Id: 0
+( p' , 2)-->(b , 0) Stmt_Id: 8
+
+Block: 4
+In  GPB Block: 4
+( p , 1)-->(p' , 1) Stmt_Id: 0
+( p , 2)-->(p' , 2) Stmt_Id: 0
+( w , 1)-->(w' , 1) Stmt_Id: 0
+( x , 1)-->(x' , 1) Stmt_Id: 0
+( y , 1)-->(y' , 1) Stmt_Id: 0
+( z , 1)-->(z' , 1) Stmt_Id: 0
+( p' , 2)-->(b , 0) Stmt_Id: 8
+Gen  GPB Block: 4
+( z , 1)-->(y' , 1) Stmt_Id: 9
+Blocked  GPB Block: 4
+( p' , 2)-->(b , 0) Stmt_Id: 8
+Killed  GPB Block: 4
+( z , 1)-->(z' , 1) Stmt_Id: 0
+( p' , 2)-->(b , 0) Stmt_Id: 8
+ In-Kill  GPB Block: 4
+( p , 1)-->(p' , 1) Stmt_Id: 0
+( p , 2)-->(p' , 2) Stmt_Id: 0
+( w , 1)-->(w' , 1) Stmt_Id: 0
+( x , 1)-->(x' , 1) Stmt_Id: 0
+( y , 1)-->(y' , 1) Stmt_Id: 0
+BoundarySetduetoBlocking  GPB Block: 4
+( p' , 2)-->( , 2) Stmt_Id: 0
+Out  GPB Block: 4
+( p , 1)-->(p' , 1) Stmt_Id: 0
+( p , 2)-->(p' , 2) Stmt_Id: 0
+( p' , 2)-->( , 2) Stmt_Id: 0
+( w , 1)-->(w' , 1) Stmt_Id: 0
+( x , 1)-->(x' , 1) Stmt_Id: 0
+( y , 1)-->(y' , 1) Stmt_Id: 0
+( z , 1)-->(y' , 1) Stmt_Id: 9
+
+Block: 5
+In  GPB Block: 5
+( p , 1)-->(p' , 1) Stmt_Id: 0
+( p , 2)-->(p' , 2) Stmt_Id: 0
+( p' , 2)-->( , 2) Stmt_Id: 0
+( w , 1)-->(w' , 1) Stmt_Id: 0
+( x , 1)-->(x' , 1) Stmt_Id: 0
+( y , 1)-->(y' , 1) Stmt_Id: 0
+( z , 1)-->(y' , 1) Stmt_Id: 9
+Gen  GPB Block: 5
+( w , 1)-->( , 2) Stmt_Id: 10
+Blocked  GPB Block: 5
+( p , 2)-->(p' , 2) Stmt_Id: 0
+( p' , 2)-->( , 2) Stmt_Id: 0
+Killed  GPB Block: 5
+( p , 2)-->(p' , 2) Stmt_Id: 0
+( p' , 2)-->( , 2) Stmt_Id: 0
+( w , 1)-->(w' , 1) Stmt_Id: 0
+ In-Kill  GPB Block: 5
+( p , 1)-->(p' , 1) Stmt_Id: 0
+( x , 1)-->(x' , 1) Stmt_Id: 0
+( y , 1)-->(y' , 1) Stmt_Id: 0
+( z , 1)-->(y' , 1) Stmt_Id: 9
+BoundarySetduetoBlocking  GPB Block: 5
+( p , 2)-->(p' , 2) Stmt_Id: 0
+( p' , 2)-->( , 2) Stmt_Id: 0
+Out  GPB Block: 5
+( p , 1)-->(p' , 1) Stmt_Id: 0
+( p , 2)-->(p' , 2) Stmt_Id: 0
+( p' , 2)-->( , 2) Stmt_Id: 0
+( x , 1)-->(x' , 1) Stmt_Id: 0
+( y , 1)-->(y' , 1) Stmt_Id: 0
+( z , 1)-->(y' , 1) Stmt_Id: 9
+( w , 1)-->( , 2) Stmt_Id: 10
+
+Block: 6
+In  GPB Block: 6
+( p , 1)-->(p' , 1) Stmt_Id: 0
+( p , 2)-->(p' , 2) Stmt_Id: 0
+( p' , 2)-->( , 2) Stmt_Id: 0
+( x , 1)-->(x' , 1) Stmt_Id: 0
+( y , 1)-->(y' , 1) Stmt_Id: 0
+( z , 1)-->(y' , 1) Stmt_Id: 9
+( w , 1)-->( , 2) Stmt_Id: 10
+Gen  GPB Block: 6
+Blocked  GPB Block: 6
+Killed  GPB Block: 6
+ In-Kill  GPB Block: 6
+( p , 1)-->(p' , 1) Stmt_Id: 0
+( p , 2)-->(p' , 2) Stmt_Id: 0
+( p' , 2)-->( , 2) Stmt_Id: 0
+( x , 1)-->(x' , 1) Stmt_Id: 0
+( y , 1)-->(y' , 1) Stmt_Id: 0
+( z , 1)-->(y' , 1) Stmt_Id: 9
+( w , 1)-->( , 2) Stmt_Id: 10
+BoundarySetduetoBlocking  GPB Block: 6
+Out  GPB Block: 6
+( p , 1)-->(p' , 1) Stmt_Id: 0
+( p , 2)-->(p' , 2) Stmt_Id: 0
+( p' , 2)-->( , 2) Stmt_Id: 0
+( x , 1)-->(x' , 1) Stmt_Id: 0
+( y , 1)-->(y' , 1) Stmt_Id: 0
+( z , 1)-->(y' , 1) Stmt_Id: 9
+( w , 1)-->( , 2) Stmt_Id: 10
+Summary of functionmainInlining f started  
+Inlining off finished
+
+Block: 7
+In  GPB Block: 7
+( p , 1)-->(p' , 1) Stmt_Id: 0
+( p , 2)-->(p' , 2) Stmt_Id: 0
+( w , 1)-->(w' , 1) Stmt_Id: 0
+( x , 1)-->(x' , 1) Stmt_Id: 0
+( y , 1)-->(y' , 1) Stmt_Id: 0
+( z , 1)-->(z' , 1) Stmt_Id: 0
+Out  GPB Block: 7
+( p , 1)-->(p' , 1) Stmt_Id: 0
+( p , 2)-->(p' , 2) Stmt_Id: 0
+( w , 1)-->(w' , 1) Stmt_Id: 0
+( x , 1)-->(x' , 1) Stmt_Id: 0
+( y , 1)-->(y' , 1) Stmt_Id: 0
+( z , 1)-->(z' , 1) Stmt_Id: 0
+
+Block: 8
+In  GPB Block: 8
+( p , 1)-->(p' , 1) Stmt_Id: 0
+( p , 2)-->(p' , 2) Stmt_Id: 0
+( w , 1)-->(w' , 1) Stmt_Id: 0
+( x , 1)-->(x' , 1) Stmt_Id: 0
+( y , 1)-->(y' , 1) Stmt_Id: 0
+( z , 1)-->(z' , 1) Stmt_Id: 0
+Gen  GPB Block: 8
+( p , 1)-->(x , 0) Stmt_Id: 14
+Blocked  GPB Block: 8
+Killed  GPB Block: 8
+( p , 1)-->(p' , 1) Stmt_Id: 0
+ In-Kill  GPB Block: 8
+( p , 2)-->(p' , 2) Stmt_Id: 0
+( w , 1)-->(w' , 1) Stmt_Id: 0
+( x , 1)-->(x' , 1) Stmt_Id: 0
+( y , 1)-->(y' , 1) Stmt_Id: 0
+( z , 1)-->(z' , 1) Stmt_Id: 0
+BoundarySetduetoBlocking  GPB Block: 8
+Out  GPB Block: 8
+( p , 2)-->(p' , 2) Stmt_Id: 0
+( w , 1)-->(w' , 1) Stmt_Id: 0
+( x , 1)-->(x' , 1) Stmt_Id: 0
+( y , 1)-->(y' , 1) Stmt_Id: 0
+( z , 1)-->(z' , 1) Stmt_Id: 0
+( p , 1)-->(x , 0) Stmt_Id: 14
+
+Block: 10
+In  GPB Block: 10
+( p , 2)-->(p' , 2) Stmt_Id: 0
+( w , 1)-->(w' , 1) Stmt_Id: 0
+( x , 1)-->(x' , 1) Stmt_Id: 0
+( y , 1)-->(y' , 1) Stmt_Id: 0
+( z , 1)-->(z' , 1) Stmt_Id: 0
+( p , 1)-->(x , 0) Stmt_Id: 14
+Gen  GPB Block: 10
+( y , 1)-->(a , 0) Stmt_Id: 7
+Blocked  GPB Block: 10
+( p , 2)-->(p' , 2) Stmt_Id: 0
+Killed  GPB Block: 10
+( p , 2)-->(p' , 2) Stmt_Id: 0
+( y , 1)-->(y' , 1) Stmt_Id: 0
+ In-Kill  GPB Block: 10
+( w , 1)-->(w' , 1) Stmt_Id: 0
+( x , 1)-->(x' , 1) Stmt_Id: 0
+( z , 1)-->(z' , 1) Stmt_Id: 0
+( p , 1)-->(x , 0) Stmt_Id: 14
+BoundarySetduetoBlocking  GPB Block: 10
+( p , 2)-->(p' , 2) Stmt_Id: 0
+Out  GPB Block: 10
+( p , 2)-->(p' , 2) Stmt_Id: 0
+( w , 1)-->(w' , 1) Stmt_Id: 0
+( x , 1)-->(x' , 1) Stmt_Id: 0
+( z , 1)-->(z' , 1) Stmt_Id: 0
+( y , 1)-->(a , 0) Stmt_Id: 7
+( p , 1)-->(x , 0) Stmt_Id: 14
+
+Block: 11
+In  GPB Block: 11
+( p , 2)-->(p' , 2) Stmt_Id: 0
+( w , 1)-->(w' , 1) Stmt_Id: 0
+( x , 1)-->(x' , 1) Stmt_Id: 0
+( z , 1)-->(z' , 1) Stmt_Id: 0
+( y , 1)-->(a , 0) Stmt_Id: 7
+( p , 1)-->(x , 0) Stmt_Id: 14
+Gen  GPB Block: 11
+( x , 1)-->(b , 0) Stmt_Id: 8
+Blocked  GPB Block: 11
+( p , 2)-->(p' , 2) Stmt_Id: 0
+Killed  GPB Block: 11
+( p , 2)-->(p' , 2) Stmt_Id: 0
+( x , 1)-->(x' , 1) Stmt_Id: 0
+ In-Kill  GPB Block: 11
+( w , 1)-->(w' , 1) Stmt_Id: 0
+( z , 1)-->(z' , 1) Stmt_Id: 0
+( y , 1)-->(a , 0) Stmt_Id: 7
+( p , 1)-->(x , 0) Stmt_Id: 14
+BoundarySetduetoBlocking  GPB Block: 11
+( p , 2)-->(p' , 2) Stmt_Id: 0
+Out  GPB Block: 11
+( p , 2)-->(p' , 2) Stmt_Id: 0
+( w , 1)-->(w' , 1) Stmt_Id: 0
+( z , 1)-->(z' , 1) Stmt_Id: 0
+( y , 1)-->(a , 0) Stmt_Id: 7
+( x , 1)-->(b , 0) Stmt_Id: 8
+( p , 1)-->(x , 0) Stmt_Id: 14
+
+Block: 12
+In  GPB Block: 12
+( p , 2)-->(p' , 2) Stmt_Id: 0
+( w , 1)-->(w' , 1) Stmt_Id: 0
+( z , 1)-->(z' , 1) Stmt_Id: 0
+( y , 1)-->(a , 0) Stmt_Id: 7
+( x , 1)-->(b , 0) Stmt_Id: 8
+( p , 1)-->(x , 0) Stmt_Id: 14
+Gen  GPB Block: 12
+( z , 1)-->(a , 0) Stmt_Id: 9
+Blocked  GPB Block: 12
+( p , 2)-->(p' , 2) Stmt_Id: 0
+Killed  GPB Block: 12
+( p , 2)-->(p' , 2) Stmt_Id: 0
+( z , 1)-->(z' , 1) Stmt_Id: 0
+ In-Kill  GPB Block: 12
+( w , 1)-->(w' , 1) Stmt_Id: 0
+( y , 1)-->(a , 0) Stmt_Id: 7
+( x , 1)-->(b , 0) Stmt_Id: 8
+( p , 1)-->(x , 0) Stmt_Id: 14
+BoundarySetduetoBlocking  GPB Block: 12
+( p , 2)-->(p' , 2) Stmt_Id: 0
+Out  GPB Block: 12
+( p , 2)-->(p' , 2) Stmt_Id: 0
+( w , 1)-->(w' , 1) Stmt_Id: 0
+( y , 1)-->(a , 0) Stmt_Id: 7
+( x , 1)-->(b , 0) Stmt_Id: 8
+( z , 1)-->(a , 0) Stmt_Id: 9
+( p , 1)-->(x , 0) Stmt_Id: 14
+
+Block: 13
+In  GPB Block: 13
+( p , 2)-->(p' , 2) Stmt_Id: 0
+( w , 1)-->(w' , 1) Stmt_Id: 0
+( y , 1)-->(a , 0) Stmt_Id: 7
+( x , 1)-->(b , 0) Stmt_Id: 8
+( z , 1)-->(a , 0) Stmt_Id: 9
+( p , 1)-->(x , 0) Stmt_Id: 14
+Gen  GPB Block: 13
+( w , 1)-->(b , 0) Stmt_Id: 10
+( w , 1)-->(p' , 2) Stmt_Id: 10
+Blocked  GPB Block: 13
+Killed  GPB Block: 13
+( w , 1)-->(w' , 1) Stmt_Id: 0
+ In-Kill  GPB Block: 13
+( p , 2)-->(p' , 2) Stmt_Id: 0
+( y , 1)-->(a , 0) Stmt_Id: 7
+( x , 1)-->(b , 0) Stmt_Id: 8
+( z , 1)-->(a , 0) Stmt_Id: 9
+( p , 1)-->(x , 0) Stmt_Id: 14
+BoundarySetduetoBlocking  GPB Block: 13
+Out  GPB Block: 13
+( p , 2)-->(p' , 2) Stmt_Id: 0
+( y , 1)-->(a , 0) Stmt_Id: 7
+( x , 1)-->(b , 0) Stmt_Id: 8
+( z , 1)-->(a , 0) Stmt_Id: 9
+( w , 1)-->(b , 0) Stmt_Id: 10
+( w , 1)-->(p' , 2) Stmt_Id: 10
+( p , 1)-->(x , 0) Stmt_Id: 14
+
+Block: 15
+In  GPB Block: 15
+( p , 2)-->(p' , 2) Stmt_Id: 0
+( y , 1)-->(a , 0) Stmt_Id: 7
+( x , 1)-->(b , 0) Stmt_Id: 8
+( z , 1)-->(a , 0) Stmt_Id: 9
+( w , 1)-->(b , 0) Stmt_Id: 10
+( w , 1)-->(p' , 2) Stmt_Id: 10
+( p , 1)-->(x , 0) Stmt_Id: 14
+Gen  GPB Block: 15
+Blocked  GPB Block: 15
+Killed  GPB Block: 15
+ In-Kill  GPB Block: 15
+( p , 2)-->(p' , 2) Stmt_Id: 0
+( y , 1)-->(a , 0) Stmt_Id: 7
+( x , 1)-->(b , 0) Stmt_Id: 8
+( z , 1)-->(a , 0) Stmt_Id: 9
+( w , 1)-->(b , 0) Stmt_Id: 10
+( w , 1)-->(p' , 2) Stmt_Id: 10
+( p , 1)-->(x , 0) Stmt_Id: 14
+BoundarySetduetoBlocking  GPB Block: 15
+Out  GPB Block: 15
+( p , 2)-->(p' , 2) Stmt_Id: 0
+( y , 1)-->(a , 0) Stmt_Id: 7
+( x , 1)-->(b , 0) Stmt_Id: 8
+( z , 1)-->(a , 0) Stmt_Id: 9
+( w , 1)-->(b , 0) Stmt_Id: 10
+( w , 1)-->(p' , 2) Stmt_Id: 10
+( p , 1)-->(x , 0) Stmt_Id: 14

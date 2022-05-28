@@ -1,0 +1,72 @@
+digraph GPG{
+node [shape=box]; 
+535[label=<<I>Start</I>>,xlabel="535", color=lightgray, fontcolor=black];
+535->539;
+535->540;
+539[label="tmp6,1-->stderr,1 [0]
+",xlabel="539", color=lightgray, fontcolor=black];
+539->567;
+540[label="arrayidx,1-->spec_fd,0 [0]
+",xlabel="540", color=lightgray, fontcolor=black];
+540->541;
+541[label="pos,1-->arrayidx,0 [0]
+",xlabel="541", color=lightgray, fontcolor=black];
+541->542;
+542[label="arrayidx6,1-->spec_fd,0 [0]
+",xlabel="542", color=lightgray, fontcolor=black];
+542->543;
+543[label="len,1-->arrayidx6,0 [0]
+",xlabel="543", color=lightgray, fontcolor=black];
+543->547;
+543->567;
+547[label="arrayidx15,1-->spec_fd,0 [0]
+",xlabel="547", color=lightgray, fontcolor=black];
+547->548;
+548[label="pos16,1-->arrayidx15,0 [0]
+",xlabel="548", color=lightgray, fontcolor=black];
+548->549;
+549[label="arrayidx18,1-->spec_fd,0 [0]
+",xlabel="549", color=lightgray, fontcolor=black];
+549->550;
+550[label="len19,1-->arrayidx18,0 [0]
+",xlabel="550", color=lightgray, fontcolor=black];
+550->551;
+550->556;
+551[label="arrayidx23,1-->spec_fd,0 [0]
+",xlabel="551", color=lightgray, fontcolor=black];
+551->552;
+552[label="len24,1-->arrayidx23,0 [0]
+",xlabel="552", color=lightgray, fontcolor=black];
+552->553;
+553[label="arrayidx26,1-->spec_fd,0 [0]
+",xlabel="553", color=lightgray, fontcolor=black];
+553->554;
+554[label="pos27,1-->arrayidx26,0 [0]
+",xlabel="554", color=lightgray, fontcolor=black];
+554->556;
+556[label="arrayidx30,1-->spec_fd,0 [0]
+",xlabel="556", color=lightgray, fontcolor=black];
+556->557;
+557[label="buf31,1-->arrayidx30,0 [0]
+",xlabel="557", color=lightgray, fontcolor=black];
+557->558;
+558[label="tmp27,1-->buf31,2 [0]
+",xlabel="558", color=lightgray, fontcolor=black];
+558->559;
+559[label="arrayidx33,1-->spec_fd,0 [0]
+",xlabel="559", color=lightgray, fontcolor=black];
+559->560;
+560[label="pos34,1-->arrayidx33,0 [0]
+",xlabel="560", color=lightgray, fontcolor=black];
+560->561;
+561[label="arrayidx36,1-->tmp27,0 [0]
+",xlabel="561", color=lightgray, fontcolor=black];
+561->562;
+562[label="arrayidx39,1-->spec_fd,0 [0]
+",xlabel="562", color=lightgray, fontcolor=black];
+562->563;
+563[label="pos40,1-->arrayidx39,0 [0]
+",xlabel="563", color=lightgray, fontcolor=black];
+563->567;
+567[label=<<I>End</I>>,xlabel="567", color=lightgray, fontcolor=black];
+}

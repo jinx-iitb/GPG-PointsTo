@@ -1,0 +1,33 @@
+GPB Block:1 {}
+GPB Block:2 {}
+GPB Block:3 {}
+GPB Block:4 {}
+GPB Block:5 {}
+GPB Block:6 {(arrayidx;1)-->(spec_fd;0),}
+GPB Block:7 {(limit2;1)-->(arrayidx;0),}
+GPB Block:8 {(arrayidx4;1)-->(spec_fd;0),}
+GPB Block:9 {(tmp5;1)-->(arrayidx4;1),}
+GPB Block:10 {(arrayidx6;1)-->(spec_fd;0),}
+GPB Block:11 {(limit7;1)-->(arrayidx6;0),}
+GPB Block:12 {(arrayidx10;1)-->(spec_fd;0),}
+GPB Block:13 {(buf;1)-->(arrayidx10;0),}
+GPB Block:14 {(buf;2)-->(call8;1),}
+GPB Block:15 {(arrayidx12;1)-->(spec_fd;0),}
+GPB Block:16 {(buf13;1)-->(arrayidx12;0),}
+GPB Block:17 {(tmp11;1)-->(buf13;2),}
+GPB Block:18 {(;999)-->(tmp11;1),}
+GPB Block:19 {}
+GPB Block:20 {}
+GPB Block:21 {}
+GPB Block:22 {(arrayidx24;1)-->(spec_fd;0),}
+GPB Block:23 {(buf25;1)-->(arrayidx24;0),}
+GPB Block:24 {(tmp15;1)-->(buf25;2),}
+GPB Block:25 {(arrayidx27;1)-->(tmp15;0),}
+GPB Block:26 {}
+GPB Block:27 {}
+GPB Block:28 {}
+GPB Block:29 {}
+GPB Block:30 {}
+------------------------
+Total GPBs : 30
+Total GPUs : 17

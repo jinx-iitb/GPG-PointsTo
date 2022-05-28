@@ -1,0 +1,5 @@
+digraph "CFG for 'g' function" {
+	label="CFG for 'g' function";
+
+	Node0x1d34fa0 [shape=record,label="{bb:\l  store i32* @b, i32** @p, align 8, !dbg !19\l  ret void, !dbg !20\l}"];
+}

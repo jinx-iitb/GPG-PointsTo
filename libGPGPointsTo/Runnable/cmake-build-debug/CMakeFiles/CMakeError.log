@@ -1,0 +1,60 @@
+Performing C SOURCE FILE Test C_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW failed with the following output:
+Change Dir: /home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1bb7b/fast && /usr/bin/make  -f CMakeFiles/cmTC_1bb7b.dir/build.make CMakeFiles/cmTC_1bb7b.dir/build
+make[1]: Entering directory '/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1bb7b.dir/src.c.o
+/usr/bin/cc   -fPIC -Werror=date-time -DC_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW   -Werror -Werror=unguarded-availability-new -o CMakeFiles/cmTC_1bb7b.dir/src.c.o   -c /home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+cc1: error: '-Werror=unguarded-availability-new': no option -Wunguarded-availability-new
+make[1]: *** [CMakeFiles/cmTC_1bb7b.dir/build.make:86: CMakeFiles/cmTC_1bb7b.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:141: cmTC_1bb7b/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW failed with the following output:
+Change Dir: /home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_49500/fast && /usr/bin/make  -f CMakeFiles/cmTC_49500.dir/build.make CMakeFiles/cmTC_49500.dir/build
+make[1]: Entering directory '/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_49500.dir/src.cxx.o
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -DCXX_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW   -Werror -Werror=unguarded-availability-new -o CMakeFiles/cmTC_49500.dir/src.cxx.o -c /home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: error: '-Werror=unguarded-availability-new': no option -Wunguarded-availability-new
+make[1]: *** [CMakeFiles/cmTC_49500.dir/build.make:86: CMakeFiles/cmTC_49500.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:141: cmTC_49500/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Determining if the os_signpost_interval_begin exist failed with the following output:
+Change Dir: /home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d0f49/fast && /usr/bin/make  -f CMakeFiles/cmTC_d0f49.dir/build.make CMakeFiles/cmTC_d0f49.dir/build
+make[1]: Entering directory '/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d0f49.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIC -Werror=date-time -w    -o CMakeFiles/cmTC_d0f49.dir/CheckSymbolExists.c.o   -c /home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: os/signpost.h: No such file or directory
+    2 | #include <os/signpost.h>
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_d0f49.dir/build.make:86: CMakeFiles/cmTC_d0f49.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:141: cmTC_d0f49/fast] Error 2
+
+
+File /home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <os/signpost.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef os_signpost_interval_begin
+  return ((int*)(&os_signpost_interval_begin))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}

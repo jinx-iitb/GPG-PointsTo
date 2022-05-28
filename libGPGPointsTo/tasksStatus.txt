@@ -1,0 +1,14 @@
+	_________________________________________________________________________________________________________________________________________________
+	|					Tasks:			|					[Status]				|	
+	|_______________________________________________________________|_______________________________________________________________________________| 
+	|* Handling Recursion through Function Pointer.			|					(Pending)				|
+	|* k-limiting algorithm for Structures and Heap Abstraction.	|					(Pending)				|
+	|* Computing Points-to Information at every Program Point.	|					(Pending)				|	
+	|* Handling Statements of form : x = NULL;.			|					(Pending)				|
+	|_______________________________________________________________|_______________________________________________________________________________|
+	|* Handling Simple calls through Function Pointer.		|					(done)					|
+	|* Handling Recursion.						|					(done)					|
+	|* New Coalescing Algorithm. 					|					(done)					|
+	|* GPU composition for IndirectionList. 			|					(done)					|
+	|* Exlude array of pointers and pointer to array from gpg_________________________________________________|_______________________________________________________________________________|
+	GPU construction when variable is argument of function - formal parameter.

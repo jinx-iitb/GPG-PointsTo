@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GPGPointsTo2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/Pass/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/Pass/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/Pass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/Pass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/Pass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/Pass/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/Pass/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/Pass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/Pass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/Pass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/Pass/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/Pass/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/Pass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/Pass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/Pass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GPGPointsTo">
+				<Option output="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/Pass/cmake-build-debug/GPGPointsTo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVERBOSE_LEVEL=6"/>
+					<Add option="-DPRINT_TO_DOT=0"/>
+					<Add option="-DPRINT_STATS=1"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/Pass/cmake-build-debug/Makefile&quot;  VERBOSE=1 GPGPointsTo"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/Pass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/Pass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/Pass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GPGPointsTo/fast">
+				<Option output="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/Pass/cmake-build-debug/GPGPointsTo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVERBOSE_LEVEL=6"/>
+					<Add option="-DPRINT_TO_DOT=0"/>
+					<Add option="-DPRINT_STATS=1"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/Pass/cmake-build-debug/Makefile&quot;  VERBOSE=1 GPGPointsTo/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/Pass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/Pass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/Pass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/Pass/main.cpp">
+			<Option target="GPGPointsTo"/>
+		</Unit>
+		<Unit filename="/home/jinx/IITB/MTP/MTP-Main/libGPGPointsTo/Runnable/Pass/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

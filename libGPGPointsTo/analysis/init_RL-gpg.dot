@@ -1,0 +1,12 @@
+digraph GPG{
+node [shape=box]; 
+82[label=<<I>Start</I>>,xlabel="82", color=lightgray, fontcolor=black];
+82->83;
+83[label="state_in_ch,1-->,0 [0]
+",xlabel="83", color=lightgray, fontcolor=black];
+83->84;
+84[label="state_in_len,1-->,0 [0]
+",xlabel="84", color=lightgray, fontcolor=black];
+84->85;
+85[label=<<I>End</I>>,xlabel="85", color=lightgray, fontcolor=black];
+}

@@ -1,0 +1,136 @@
+
+------------------------------------
+Function : spec_init
+Number of GPBs initially constructed -> 30
+GPB freq - 0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,1,0,0,0,0,0,
+arrayidx,1-->spec_fd,0 [0] | limit2,1-->arrayidx,0 [0] | arrayidx4,1-->spec_fd,0 [0] | tmp5,1-->arrayidx4,1 [0] | arrayidx6,1-->spec_fd,0 [0] | limit7,1-->arrayidx6,0 [0] | arrayidx10,1-->spec_fd,0 [0] | buf,1-->arrayidx10,0 [0] | buf,2-->call8,1 [0] | arrayidx12,1-->spec_fd,0 [0] | buf13,1-->arrayidx12,0 [0] | tmp11,1-->buf13,2 [0] | ,999-->tmp11,1 [0] | arrayidx24,1-->spec_fd,0 [0] | buf25,1-->arrayidx24,0 [0] | tmp15,1-->buf25,2 [0] | arrayidx27,1-->tmp15,0 [0] | 
+Number of GPUs initially constructed - 17
+
+------------------------------------
+Function : debug_time
+Number of GPBs initially constructed -> 3
+GPB freq - 0,0,0,
+
+Number of GPUs initially constructed - 0
+
+------------------------------------
+Function : spec_load
+Number of GPBs initially constructed -> 42
+GPB freq - 0,0,1,1,1,1,1,0,1,1,1,1,0,0,1,1,1,0,0,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,
+tmp3,1-->stderr,1 [0] | arrayidx,1-->spec_fd,0 [0] | len,1-->arrayidx,0 [0] | arrayidx5,1-->spec_fd,0 [0] | pos,1-->arrayidx5,0 [0] | arrayidx8,1-->spec_fd,0 [0] | buf,1-->arrayidx8,0 [0] | tmp12,1-->buf,2 [0] | add.ptr,1-->tmp12,0 [0] | tmp16,1-->stderr,1 [0] | arrayidx22,1-->spec_fd,0 [0] | len23,1-->arrayidx22,0 [0] | arrayidx27,1-->spec_fd,0 [0] | len28,1-->arrayidx27,0 [0] | arrayidx32,1-->spec_fd,0 [0] | len33,1-->arrayidx32,0 [0] | arrayidx35,1-->spec_fd,0 [0] | len36,1-->arrayidx35,0 [0] | arrayidx41,1-->spec_fd,0 [0] | len42,1-->arrayidx41,0 [0] | arrayidx50,1-->spec_fd,0 [0] | buf51,1-->arrayidx50,0 [0] | tmp39,1-->buf51,2 [0] | arrayidx53,1-->spec_fd,0 [0] | len54,1-->arrayidx53,0 [0] | add.ptr56,1-->tmp39,0 [0] | arrayidx58,1-->spec_fd,0 [0] | buf59,1-->arrayidx58,0 [0] | tmp43,1-->buf59,2 [0] | arrayidx62,1-->spec_fd,0 [0] | len63,1-->arrayidx62,0 [0] | 
+Number of GPUs initially constructed - 31
+
+------------------------------------
+Function : spec_initbufs
+Number of GPBs initially constructed -> 3
+GPB freq - 0,0,0,
+
+Number of GPUs initially constructed - 0
+
+------------------------------------
+Function : bz_config_ok
+Number of GPBs initially constructed -> 3
+GPB freq - 0,0,0,
+
+Number of GPUs initially constructed - 0
+
+------------------------------------
+Function : init_RL
+Number of GPBs initially constructed -> 4
+GPB freq - 0,1,1,0,
+state_in_ch,1-->,0 [0] | state_in_len,1-->,0 [0] | 
+Number of GPUs initially constructed - 2
+
+------------------------------------
+Function : prepare_new_block
+Number of GPBs initially constructed -> 11
+GPB freq - 0,1,1,1,1,0,1,1,0,1,0,
+nblock,1-->,0 [0] | numZ,1-->,0 [0] | state_out_pos,1-->,0 [0] | blockCRC,1-->,0 [0] | inUse,1-->,0 [0] | arrayidx,1-->inUse,0 [0] | blockNo,1-->,0 [0] | 
+Number of GPUs initially constructed - 7
+
+------------------------------------
+Function : BZ2_bzCompressInit
+Number of GPBs initially constructed -> 162
+GPB freq - 0,0,0,0,1,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,0,1,0,0,1,1,1,1,1,1,1,0,0,0,
+,999-->,1 [0] | bzalloc,1-->,0 [0] | tmp7,1-->bzalloc,2 [0] | ,999-->tmp7,1 [0] | bzalloc15,1-->,0 [0] | bzalloc15,2-->default_bzalloc,0 [0] | bzfree,1-->,0 [0] | tmp10,1-->bzfree,2 [0] | ,999-->tmp10,1 [0] | bzfree19,1-->,0 [0] | bzfree19,2-->default_bzfree,0 [0] | bzalloc21,1-->,0 [0] | tmp13,1-->bzalloc21,2 [0] | opaque,1-->,0 [0] | tmp15,1-->opaque,2 [0] | use@225bzlib.c,1-->strm.f10* [225] | tmp16,1-->call22,1 [0] | ,999-->tmp16,1 [0] | strm26,1-->tmp16,0 [0] | strm26,2-->,0 [0] | arr1,1-->tmp16,0 [0] | arr1,2-->,0 [0] | arr2,1-->tmp16,0 [0] | arr2,2-->,0 [0] | ftab,1-->tmp16,0 [0] | ftab,2-->,0 [0] | bzalloc27,1-->,0 [0] | tmp25,1-->bzalloc27,2 [0] | opaque28,1-->,0 [0] | tmp27,1-->opaque28,2 [0] | use@234bzlib.c,1-->strm.f10* [234] | tmp29,1-->call31,1 [0] | arr132,1-->tmp16,0 [0] | arr132,2-->tmp29,1 [0] | bzalloc33,1-->,0 [0] | tmp32,1-->bzalloc33,2 [0] | opaque34,1-->,0 [0] | tmp34,1-->opaque34,2 [0] | use@235bzlib.c,1-->strm.f10* [235] | tmp36,1-->call38,1 [0] | arr239,1-->tmp16,0 [0] | arr239,2-->tmp36,1 [0] | bzalloc40,1-->,0 [0] | tmp39,1-->bzalloc40,2 [0] | opaque41,1-->,0 [0] | tmp41,1-->opaque41,2 [0] | use@236bzlib.c,1-->strm.f10* [236] | tmp42,1-->call42,1 [0] | ftab43,1-->tmp16,0 [0] | ftab43,2-->tmp42,1 [0] | arr144,1-->tmp16,0 [0] | tmp45,1-->arr144,2 [0] | ,999-->tmp45,1 [0] | arr248,1-->tmp16,0 [0] | tmp47,1-->arr248,2 [0] | ,999-->tmp47,1 [0] | ftab52,1-->tmp16,0 [0] | tmp49,1-->ftab52,2 [0] | ,999-->tmp49,1 [0] | arr156,1-->tmp16,0 [0] | tmp51,1-->arr156,2 [0] | ,999-->tmp51,1 [0] | bzfree60,1-->,0 [0] | tmp53,1-->bzfree60,2 [0] | opaque61,1-->,0 [0] | tmp55,1-->opaque61,2 [0] | arr162,1-->tmp16,0 [0] | tmp57,1-->arr162,2 [0] | tmp58,1-->tmp57,1 [0] | use@239bzlib.c,1-->strm.f11* [239] | arr264,1-->tmp16,0 [0] | tmp60,1-->arr264,2 [0] | ,999-->tmp60,1 [0] | bzfree68,1-->,0 [0] | tmp62,1-->bzfree68,2 [0] | opaque69,1-->,0 [0] | tmp64,1-->opaque69,2 [0] | arr270,1-->tmp16,0 [0] | tmp66,1-->arr270,2 [0] | tmp67,1-->tmp66,1 [0] | use@240bzlib.c,1-->strm.f11* [240] | ftab72,1-->tmp16,0 [0] | tmp69,1-->ftab72,2 [0] | ,999-->tmp69,1 [0] | bzfree76,1-->,0 [0] | tmp71,1-->bzfree76,2 [0] | opaque77,1-->,0 [0] | tmp73,1-->opaque77,2 [0] | ftab78,1-->tmp16,0 [0] | tmp75,1-->ftab78,2 [0] | tmp76,1-->tmp75,1 [0] | use@241bzlib.c,1-->strm.f11* [241] | ,999-->tmp16,1 [0] | bzfree83,1-->,0 [0] | tmp79,1-->bzfree83,2 [0] | opaque84,1-->,0 [0] | tmp81,1-->opaque84,2 [0] | tmp83,1-->tmp16,1 [0] | use@242bzlib.c,1-->strm.f11* [242] | blockNo,1-->tmp16,0 [0] | state,1-->tmp16,0 [0] | mode,1-->tmp16,0 [0] | combinedCRC,1-->tmp16,0 [0] | blockSize100k87,1-->tmp16,0 [0] | nblockMAX,1-->tmp16,0 [0] | verbosity89,1-->tmp16,0 [0] | workFactor90,1-->tmp16,0 [0] | arr291,1-->tmp16,0 [0] | tmp97,1-->arr291,2 [0] | tmp98,1-->tmp97,1 [0] | block,1-->tmp16,0 [0] | block,2-->tmp98,1 [0] | arr192,1-->tmp16,0 [0] | tmp101,1-->arr192,2 [0] | tmp102,1-->tmp101,1 [0] | mtfv,1-->tmp16,0 [0] | mtfv,2-->tmp102,1 [0] | zbits,1-->tmp16,0 [0] | zbits,2-->,0 [0] | arr193,1-->tmp16,0 [0] | tmp106,1-->arr193,2 [0] | ptr,1-->tmp16,0 [0] | ptr,2-->tmp106,1 [0] | tmp109,1-->tmp16,1 [0] | state94,1-->,0 [0] | state94,2-->tmp109,1 [0] | total_in_lo32,1-->,0 [0] | total_in_hi32,1-->,0 [0] | total_out_lo32,1-->,0 [0] | total_out_hi32,1-->,0 [0] | ,1-->tmp16,1 [0] | state_in_ch,1-->,0 [0] | state_in_len,1-->,0 [0] | ,1-->tmp16,1 [0] | nblock,1-->,0 [0] | numZ,1-->,0 [0] | state_out_pos,1-->,0 [0] | blockCRC,1-->,0 [0] | inUse,1-->,0 [0] | arrayidx,1-->inUse,0 [0] | blockNo,1-->,0 [0] | 
+Number of GPUs initially constructed - 141
+
+------------------------------------
+Function : BZ2_bzWriteOpen
+Number of GPBs initially constructed -> 199
+GPB freq - 0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,1,1,1,0,1,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,1,0,
+,999-->,1 [0] | lastErr,1-->,0 [0] | ,999-->,1 [0] | lastErr22,1-->,0 [0] | tmp15,1-->call,1 [0] | ,999-->tmp15,1 [0] | ,999-->,1 [0] | ,999-->tmp15,1 [0] | lastErr32,1-->tmp15,0 [0] | ,999-->,1 [0] | ,999-->tmp15,1 [0] | lastErr40,1-->tmp15,0 [0] | initialisedOk,1-->tmp15,0 [0] | bufN,1-->tmp15,0 [0] | handle,1-->tmp15,0 [0] | writing,1-->tmp15,0 [0] | strm,1-->tmp15,0 [0] | bzalloc,1-->strm,0 [0] | bzalloc,2-->,0 [0] | strm42,1-->tmp15,0 [0] | bzfree,1-->strm42,0 [0] | bzfree,2-->,0 [0] | strm43,1-->tmp15,0 [0] | opaque,1-->strm43,0 [0] | opaque,2-->,0 [0] | strm47,1-->tmp15,0 [0] | ,999-->,1 [0] | bzalloc,1-->,0 [0] | tmp7,1-->bzalloc,2 [0] | ,999-->tmp7,1 [0] | bzalloc15,1-->,0 [0] | bzalloc15,2-->default_bzalloc,0 [0] | bzfree,1-->,0 [0] | tmp10,1-->bzfree,2 [0] | ,999-->tmp10,1 [0] | bzfree19,1-->,0 [0] | bzfree19,2-->default_bzfree,0 [0] | bzalloc21,1-->,0 [0] | tmp13,1-->bzalloc21,2 [0] | opaque,1-->,0 [0] | tmp15,1-->opaque,2 [0] | use@225bzlib.c,1-->strm.f10* [225] | tmp16,1-->call22,1 [0] | ,999-->tmp16,1 [0] | strm26,1-->tmp16,0 [0] | strm26,2-->,0 [0] | arr1,1-->tmp16,0 [0] | arr1,2-->,0 [0] | arr2,1-->tmp16,0 [0] | arr2,2-->,0 [0] | ftab,1-->tmp16,0 [0] | ftab,2-->,0 [0] | bzalloc27,1-->,0 [0] | tmp25,1-->bzalloc27,2 [0] | opaque28,1-->,0 [0] | tmp27,1-->opaque28,2 [0] | use@234bzlib.c,1-->strm.f10* [234] | tmp29,1-->call31,1 [0] | arr132,1-->tmp16,0 [0] | arr132,2-->tmp29,1 [0] | bzalloc33,1-->,0 [0] | tmp32,1-->bzalloc33,2 [0] | opaque34,1-->,0 [0] | tmp34,1-->opaque34,2 [0] | use@235bzlib.c,1-->strm.f10* [235] | tmp36,1-->call38,1 [0] | arr239,1-->tmp16,0 [0] | arr239,2-->tmp36,1 [0] | bzalloc40,1-->,0 [0] | tmp39,1-->bzalloc40,2 [0] | opaque41,1-->,0 [0] | tmp41,1-->opaque41,2 [0] | use@236bzlib.c,1-->strm.f10* [236] | tmp42,1-->call42,1 [0] | ftab43,1-->tmp16,0 [0] | ftab43,2-->tmp42,1 [0] | arr144,1-->tmp16,0 [0] | tmp45,1-->arr144,2 [0] | ,999-->tmp45,1 [0] | arr248,1-->tmp16,0 [0] | tmp47,1-->arr248,2 [0] | ,999-->tmp47,1 [0] | ftab52,1-->tmp16,0 [0] | tmp49,1-->ftab52,2 [0] | ,999-->tmp49,1 [0] | arr156,1-->tmp16,0 [0] | tmp51,1-->arr156,2 [0] | ,999-->tmp51,1 [0] | bzfree60,1-->,0 [0] | tmp53,1-->bzfree60,2 [0] | opaque61,1-->,0 [0] | tmp55,1-->opaque61,2 [0] | arr162,1-->tmp16,0 [0] | tmp57,1-->arr162,2 [0] | tmp58,1-->tmp57,1 [0] | use@239bzlib.c,1-->strm.f11* [239] | arr264,1-->tmp16,0 [0] | tmp60,1-->arr264,2 [0] | ,999-->tmp60,1 [0] | bzfree68,1-->,0 [0] | tmp62,1-->bzfree68,2 [0] | opaque69,1-->,0 [0] | tmp64,1-->opaque69,2 [0] | arr270,1-->tmp16,0 [0] | tmp66,1-->arr270,2 [0] | tmp67,1-->tmp66,1 [0] | use@240bzlib.c,1-->strm.f11* [240] | ftab72,1-->tmp16,0 [0] | tmp69,1-->ftab72,2 [0] | ,999-->tmp69,1 [0] | bzfree76,1-->,0 [0] | tmp71,1-->bzfree76,2 [0] | opaque77,1-->,0 [0] | tmp73,1-->opaque77,2 [0] | ftab78,1-->tmp16,0 [0] | tmp75,1-->ftab78,2 [0] | tmp76,1-->tmp75,1 [0] | use@241bzlib.c,1-->strm.f11* [241] | ,999-->tmp16,1 [0] | bzfree83,1-->,0 [0] | tmp79,1-->bzfree83,2 [0] | opaque84,1-->,0 [0] | tmp81,1-->opaque84,2 [0] | tmp83,1-->tmp16,1 [0] | use@242bzlib.c,1-->strm.f11* [242] | blockNo,1-->tmp16,0 [0] | state,1-->tmp16,0 [0] | mode,1-->tmp16,0 [0] | combinedCRC,1-->tmp16,0 [0] | blockSize100k87,1-->tmp16,0 [0] | nblockMAX,1-->tmp16,0 [0] | verbosity89,1-->tmp16,0 [0] | workFactor90,1-->tmp16,0 [0] | arr291,1-->tmp16,0 [0] | tmp97,1-->arr291,2 [0] | tmp98,1-->tmp97,1 [0] | block,1-->tmp16,0 [0] | block,2-->tmp98,1 [0] | arr192,1-->tmp16,0 [0] | tmp101,1-->arr192,2 [0] | tmp102,1-->tmp101,1 [0] | mtfv,1-->tmp16,0 [0] | mtfv,2-->tmp102,1 [0] | zbits,1-->tmp16,0 [0] | zbits,2-->,0 [0] | arr193,1-->tmp16,0 [0] | tmp106,1-->arr193,2 [0] | ptr,1-->tmp16,0 [0] | ptr,2-->tmp106,1 [0] | tmp109,1-->tmp16,1 [0] | state94,1-->,0 [0] | state94,2-->tmp109,1 [0] | total_in_lo32,1-->,0 [0] | total_in_hi32,1-->,0 [0] | total_out_lo32,1-->,0 [0] | total_out_hi32,1-->,0 [0] | ,1-->tmp16,1 [0] | state_in_ch,1-->,0 [0] | state_in_len,1-->,0 [0] | ,1-->tmp16,1 [0] | nblock,1-->,0 [0] | numZ,1-->,0 [0] | state_out_pos,1-->,0 [0] | blockCRC,1-->,0 [0] | inUse,1-->,0 [0] | arrayidx,1-->inUse,0 [0] | blockNo,1-->,0 [0] | ,999-->,1 [0] | ,999-->tmp15,1 [0] | lastErr56,1-->tmp15,0 [0] | tmp46,1-->tmp15,1 [0] | strm59,1-->tmp15,0 [0] | avail_in,1-->strm59,0 [0] | initialisedOk60,1-->tmp15,0 [0] | tmp50,1-->tmp15,1 [0] | retval.0,1-->tmp50,1 [0] | ,99-->retval.0,1 [0] | 
+Number of GPUs initially constructed - 177
+
+------------------------------------
+Function : spec_getc
+Number of GPBs initially constructed -> 22
+GPB freq - 0,0,0,0,1,1,1,1,1,0,0,0,1,1,1,1,1,1,0,0,0,0,
+tmp3,1-->stderr,1 [0] | arrayidx,1-->spec_fd,0 [0] | pos,1-->arrayidx,0 [0] | arrayidx6,1-->spec_fd,0 [0] | len,1-->arrayidx6,0 [0] | arrayidx15,1-->spec_fd,0 [0] | buf,1-->arrayidx15,0 [0] | tmp11,1-->buf,2 [0] | arrayidx17,1-->spec_fd,0 [0] | pos18,1-->arrayidx17,0 [0] | arrayidx20,1-->tmp11,0 [0] | 
+Number of GPUs initially constructed - 11
+
+------------------------------------
+Function : spec_ungetc
+Number of GPBs initially constructed -> 21
+GPB freq - 0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,
+tmp3,1-->stderr,1 [0] | arrayidx,1-->spec_fd,0 [0] | pos,1-->arrayidx,0 [0] | tmp7,1-->stderr,1 [0] | arrayidx8,1-->spec_fd,0 [0] | pos9,1-->arrayidx8,0 [0] | arrayidx13,1-->spec_fd,0 [0] | buf,1-->arrayidx13,0 [0] | tmp11,1-->buf,2 [0] | arrayidx15,1-->spec_fd,0 [0] | pos16,1-->arrayidx15,0 [0] | arrayidx18,1-->tmp11,0 [0] | tmp16,1-->stderr,1 [0] | 
+Number of GPUs initially constructed - 13
+
+------------------------------------
+Function : myfeof
+Number of GPBs initially constructed -> 33
+GPB freq - 0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,
+tmp3,1-->stderr,1 [0] | arrayidx,1-->spec_fd,0 [0] | pos,1-->arrayidx,0 [0] | arrayidx6,1-->spec_fd,0 [0] | len,1-->arrayidx6,0 [0] | arrayidx15,1-->spec_fd,0 [0] | buf,1-->arrayidx15,0 [0] | tmp11,1-->buf,2 [0] | arrayidx17,1-->spec_fd,0 [0] | pos18,1-->arrayidx17,0 [0] | arrayidx20,1-->tmp11,0 [0] | ,1-->conv,1 [0] | tmp3,1-->stderr,1 [0] | arrayidx,1-->spec_fd,0 [0] | pos,1-->arrayidx,0 [0] | tmp7,1-->stderr,1 [0] | arrayidx8,1-->spec_fd,0 [0] | pos9,1-->arrayidx8,0 [0] | arrayidx13,1-->spec_fd,0 [0] | buf,1-->arrayidx13,0 [0] | tmp11,1-->buf,2 [0] | arrayidx15,1-->spec_fd,0 [0] | pos16,1-->arrayidx15,0 [0] | arrayidx18,1-->tmp11,0 [0] | tmp16,1-->stderr,1 [0] | 
+Number of GPUs initially constructed - 25
+
+------------------------------------
+Function : spec_fread
+Number of GPBs initially constructed -> 33
+GPB freq - 0,0,0,0,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,0,0,0,0,
+tmp6,1-->stderr,1 [0] | arrayidx,1-->spec_fd,0 [0] | pos,1-->arrayidx,0 [0] | arrayidx6,1-->spec_fd,0 [0] | len,1-->arrayidx6,0 [0] | arrayidx15,1-->spec_fd,0 [0] | pos16,1-->arrayidx15,0 [0] | arrayidx18,1-->spec_fd,0 [0] | len19,1-->arrayidx18,0 [0] | arrayidx23,1-->spec_fd,0 [0] | len24,1-->arrayidx23,0 [0] | arrayidx26,1-->spec_fd,0 [0] | pos27,1-->arrayidx26,0 [0] | arrayidx30,1-->spec_fd,0 [0] | buf31,1-->arrayidx30,0 [0] | tmp27,1-->buf31,2 [0] | arrayidx33,1-->spec_fd,0 [0] | pos34,1-->arrayidx33,0 [0] | arrayidx36,1-->tmp27,0 [0] | arrayidx39,1-->spec_fd,0 [0] | pos40,1-->arrayidx39,0 [0] | 
+Number of GPUs initially constructed - 21
+
+------------------------------------
+Function : copy_output_until_stop
+Number of GPBs initially constructed -> 39
+GPB freq - 0,0,1,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,
+strm,1-->,0 [0] | tmp1,1-->strm,2 [0] | avail_out,1-->tmp1,0 [0] | state_out_pos,1-->,0 [0] | numZ,1-->,0 [0] | zbits,1-->,0 [0] | tmp8,1-->zbits,2 [0] | state_out_pos4,1-->,0 [0] | arrayidx,1-->tmp8,0 [0] | strm5,1-->,0 [0] | tmp13,1-->strm5,2 [0] | next_out,1-->tmp13,0 [0] | tmp14,1-->next_out,2 [0] | state_out_pos6,1-->,0 [0] | strm7,1-->,0 [0] | tmp18,1-->strm7,2 [0] | avail_out8,1-->tmp18,0 [0] | strm9,1-->,0 [0] | tmp21,1-->strm9,2 [0] | next_out10,1-->tmp21,0 [0] | tmp22,1-->next_out10,2 [0] | incdec.ptr,1-->tmp22,0 [0] | next_out10,2-->incdec.ptr,1 [0] | strm11,1-->,0 [0] | tmp24,1-->strm11,2 [0] | total_out_lo32,1-->tmp24,0 [0] | strm13,1-->,0 [0] | tmp27,1-->strm13,2 [0] | total_out_lo3214,1-->tmp27,0 [0] | strm17,1-->,0 [0] | tmp30,1-->strm17,2 [0] | total_out_hi32,1-->tmp30,0 [0] | 
+Number of GPUs initially constructed - 32
+
+------------------------------------
+Function : isempty_RL
+Number of GPBs initially constructed -> 7
+GPB freq - 0,1,1,0,0,0,0,
+state_in_ch,1-->,0 [0] | state_in_len,1-->,0 [0] | 
+Number of GPUs initially constructed - 2
+
+------------------------------------
+Function : add_pair_to_block
+Number of GPBs initially constructed -> 73
+GPB freq - 0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,
+state_in_ch,1-->,0 [0] | state_in_len,1-->,0 [0] | blockCRC,1-->,0 [0] | blockCRC2,1-->,0 [0] | arrayidx,1-->BZ2_crc32Table,0 [0] | blockCRC5,1-->,0 [0] | inUse,1-->,0 [0] | state_in_ch6,1-->,0 [0] | arrayidx8,1-->inUse,0 [0] | state_in_len9,1-->,0 [0] | block,1-->,0 [0] | tmp20,1-->block,2 [0] | nblock,1-->,0 [0] | arrayidx11,1-->tmp20,0 [0] | nblock12,1-->,0 [0] | block15,1-->,0 [0] | tmp27,1-->block15,2 [0] | nblock16,1-->,0 [0] | arrayidx18,1-->tmp27,0 [0] | nblock19,1-->,0 [0] | block21,1-->,0 [0] | tmp34,1-->block21,2 [0] | nblock22,1-->,0 [0] | arrayidx24,1-->tmp34,0 [0] | nblock25,1-->,0 [0] | block28,1-->,0 [0] | tmp41,1-->block28,2 [0] | nblock29,1-->,0 [0] | arrayidx31,1-->tmp41,0 [0] | nblock32,1-->,0 [0] | block34,1-->,0 [0] | tmp48,1-->block34,2 [0] | nblock35,1-->,0 [0] | arrayidx37,1-->tmp48,0 [0] | nblock38,1-->,0 [0] | block40,1-->,0 [0] | tmp55,1-->block40,2 [0] | nblock41,1-->,0 [0] | arrayidx43,1-->tmp55,0 [0] | nblock44,1-->,0 [0] | inUse46,1-->,0 [0] | state_in_len47,1-->,0 [0] | arrayidx49,1-->inUse46,0 [0] | block50,1-->,0 [0] | tmp65,1-->block50,2 [0] | nblock51,1-->,0 [0] | arrayidx53,1-->tmp65,0 [0] | nblock54,1-->,0 [0] | block56,1-->,0 [0] | tmp72,1-->block56,2 [0] | nblock57,1-->,0 [0] | arrayidx59,1-->tmp72,0 [0] | nblock60,1-->,0 [0] | block62,1-->,0 [0] | tmp79,1-->block62,2 [0] | nblock63,1-->,0 [0] | arrayidx65,1-->tmp79,0 [0] | nblock66,1-->,0 [0] | block68,1-->,0 [0] | tmp86,1-->block68,2 [0] | nblock69,1-->,0 [0] | arrayidx71,1-->tmp86,0 [0] | nblock72,1-->,0 [0] | state_in_len74,1-->,0 [0] | block77,1-->,0 [0] | tmp94,1-->block77,2 [0] | nblock78,1-->,0 [0] | arrayidx80,1-->tmp94,0 [0] | nblock81,1-->,0 [0] | 
+Number of GPUs initially constructed - 69
+
+------------------------------------
+Function : copy_input_until_stop
+Number of GPBs initially constructed -> 260
+GPB freq - 0,1,0,1,1,0,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,0,1,1,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,
+mode,1-->,0 [0] | nblock,1-->,0 [0] | nblockMAX,1-->,0 [0] | strm,1-->,0 [0] | tmp7,1-->strm,2 [0] | avail_in,1-->tmp7,0 [0] | strm6,1-->,0 [0] | tmp10,1-->strm6,2 [0] | next_in,1-->tmp10,0 [0] | tmp11,1-->next_in,2 [0] | state_in_ch,1-->,0 [0] | state_in_len,1-->,0 [0] | state_in_ch12,1-->,0 [0] | blockCRC,1-->,0 [0] | blockCRC14,1-->,0 [0] | arrayidx,1-->BZ2_crc32Table,0 [0] | blockCRC17,1-->,0 [0] | inUse,1-->,0 [0] | state_in_ch18,1-->,0 [0] | arrayidx20,1-->inUse,0 [0] | block,1-->,0 [0] | tmp32,1-->block,2 [0] | nblock21,1-->,0 [0] | arrayidx23,1-->tmp32,0 [0] | nblock24,1-->,0 [0] | state_in_ch25,1-->,0 [0] | state_in_ch26,1-->,0 [0] | state_in_len29,1-->,0 [0] | state_in_ch33,1-->,0 [0] | s,1-->s,1 [359] | state_in_ch,1-->,0 [0] | state_in_len,1-->,0 [0] | blockCRC,1-->,0 [0] | blockCRC2,1-->,0 [0] | arrayidx,1-->BZ2_crc32Table,0 [0] | blockCRC5,1-->,0 [0] | inUse,1-->,0 [0] | state_in_ch6,1-->,0 [0] | arrayidx8,1-->inUse,0 [0] | state_in_len9,1-->,0 [0] | block,1-->,0 [0] | tmp20,1-->block,2 [0] | nblock,1-->,0 [0] | arrayidx11,1-->tmp20,0 [0] | nblock12,1-->,0 [0] | block15,1-->,0 [0] | tmp27,1-->block15,2 [0] | nblock16,1-->,0 [0] | arrayidx18,1-->tmp27,0 [0] | nblock19,1-->,0 [0] | block21,1-->,0 [0] | tmp34,1-->block21,2 [0] | nblock22,1-->,0 [0] | arrayidx24,1-->tmp34,0 [0] | nblock25,1-->,0 [0] | block28,1-->,0 [0] | tmp41,1-->block28,2 [0] | nblock29,1-->,0 [0] | arrayidx31,1-->tmp41,0 [0] | nblock32,1-->,0 [0] | block34,1-->,0 [0] | tmp48,1-->block34,2 [0] | nblock35,1-->,0 [0] | arrayidx37,1-->tmp48,0 [0] | nblock38,1-->,0 [0] | block40,1-->,0 [0] | tmp55,1-->block40,2 [0] | nblock41,1-->,0 [0] | arrayidx43,1-->tmp55,0 [0] | nblock44,1-->,0 [0] | inUse46,1-->,0 [0] | state_in_len47,1-->,0 [0] | arrayidx49,1-->inUse46,0 [0] | block50,1-->,0 [0] | tmp65,1-->block50,2 [0] | nblock51,1-->,0 [0] | arrayidx53,1-->tmp65,0 [0] | nblock54,1-->,0 [0] | block56,1-->,0 [0] | tmp72,1-->block56,2 [0] | nblock57,1-->,0 [0] | arrayidx59,1-->tmp72,0 [0] | nblock60,1-->,0 [0] | block62,1-->,0 [0] | tmp79,1-->block62,2 [0] | nblock63,1-->,0 [0] | arrayidx65,1-->tmp79,0 [0] | nblock66,1-->,0 [0] | block68,1-->,0 [0] | tmp86,1-->block68,2 [0] | nblock69,1-->,0 [0] | arrayidx71,1-->tmp86,0 [0] | nblock72,1-->,0 [0] | state_in_len74,1-->,0 [0] | block77,1-->,0 [0] | tmp94,1-->block77,2 [0] | nblock78,1-->,0 [0] | arrayidx80,1-->tmp94,0 [0] | nblock81,1-->,0 [0] | state_in_ch38,1-->,0 [0] | state_in_len39,1-->,0 [0] | state_in_len41,1-->,0 [0] | strm45,1-->,0 [0] | tmp53,1-->strm45,2 [0] | next_in46,1-->tmp53,0 [0] | tmp54,1-->next_in46,2 [0] | incdec.ptr,1-->tmp54,0 [0] | next_in46,2-->incdec.ptr,1 [0] | strm47,1-->,0 [0] | tmp56,1-->strm47,2 [0] | avail_in48,1-->tmp56,0 [0] | strm49,1-->,0 [0] | tmp59,1-->strm49,2 [0] | total_in_lo32,1-->tmp59,0 [0] | strm51,1-->,0 [0] | tmp62,1-->strm51,2 [0] | total_in_lo3252,1-->tmp62,0 [0] | strm56,1-->,0 [0] | tmp65,1-->strm56,2 [0] | total_in_hi32,1-->tmp65,0 [0] | nblock61,1-->,0 [0] | nblockMAX62,1-->,0 [0] | strm67,1-->,0 [0] | tmp72,1-->strm67,2 [0] | avail_in68,1-->tmp72,0 [0] | avail_in_expect,1-->,0 [0] | strm78,1-->,0 [0] | tmp77,1-->strm78,2 [0] | next_in79,1-->tmp77,0 [0] | tmp78,1-->next_in79,2 [0] | state_in_ch81,1-->,0 [0] | state_in_len85,1-->,0 [0] | state_in_ch90,1-->,0 [0] | blockCRC92,1-->,0 [0] | blockCRC94,1-->,0 [0] | arrayidx99,1-->BZ2_crc32Table,0 [0] | blockCRC101,1-->,0 [0] | inUse102,1-->,0 [0] | state_in_ch103,1-->,0 [0] | arrayidx105,1-->inUse102,0 [0] | block106,1-->,0 [0] | tmp99,1-->block106,2 [0] | nblock107,1-->,0 [0] | arrayidx109,1-->tmp99,0 [0] | nblock110,1-->,0 [0] | state_in_ch112,1-->,0 [0] | state_in_ch114,1-->,0 [0] | state_in_len118,1-->,0 [0] | state_in_ch122,1-->,0 [0] | s,1-->s,1 [377] | state_in_ch,1-->,0 [0] | state_in_len,1-->,0 [0] | blockCRC,1-->,0 [0] | blockCRC2,1-->,0 [0] | arrayidx,1-->BZ2_crc32Table,0 [0] | blockCRC5,1-->,0 [0] | inUse,1-->,0 [0] | state_in_ch6,1-->,0 [0] | arrayidx8,1-->inUse,0 [0] | state_in_len9,1-->,0 [0] | block,1-->,0 [0] | tmp20,1-->block,2 [0] | nblock,1-->,0 [0] | arrayidx11,1-->tmp20,0 [0] | nblock12,1-->,0 [0] | block15,1-->,0 [0] | tmp27,1-->block15,2 [0] | nblock16,1-->,0 [0] | arrayidx18,1-->tmp27,0 [0] | nblock19,1-->,0 [0] | block21,1-->,0 [0] | tmp34,1-->block21,2 [0] | nblock22,1-->,0 [0] | arrayidx24,1-->tmp34,0 [0] | nblock25,1-->,0 [0] | block28,1-->,0 [0] | tmp41,1-->block28,2 [0] | nblock29,1-->,0 [0] | arrayidx31,1-->tmp41,0 [0] | nblock32,1-->,0 [0] | block34,1-->,0 [0] | tmp48,1-->block34,2 [0] | nblock35,1-->,0 [0] | arrayidx37,1-->tmp48,0 [0] | nblock38,1-->,0 [0] | block40,1-->,0 [0] | tmp55,1-->block40,2 [0] | nblock41,1-->,0 [0] | arrayidx43,1-->tmp55,0 [0] | nblock44,1-->,0 [0] | inUse46,1-->,0 [0] | state_in_len47,1-->,0 [0] | arrayidx49,1-->inUse46,0 [0] | block50,1-->,0 [0] | tmp65,1-->block50,2 [0] | nblock51,1-->,0 [0] | arrayidx53,1-->tmp65,0 [0] | nblock54,1-->,0 [0] | block56,1-->,0 [0] | tmp72,1-->block56,2 [0] | nblock57,1-->,0 [0] | arrayidx59,1-->tmp72,0 [0] | nblock60,1-->,0 [0] | block62,1-->,0 [0] | tmp79,1-->block62,2 [0] | nblock63,1-->,0 [0] | arrayidx65,1-->tmp79,0 [0] | nblock66,1-->,0 [0] | block68,1-->,0 [0] | tmp86,1-->block68,2 [0] | nblock69,1-->,0 [0] | arrayidx71,1-->tmp86,0 [0] | nblock72,1-->,0 [0] | state_in_len74,1-->,0 [0] | block77,1-->,0 [0] | tmp94,1-->block77,2 [0] | nblock78,1-->,0 [0] | arrayidx80,1-->tmp94,0 [0] | nblock81,1-->,0 [0] | state_in_ch127,1-->,0 [0] | state_in_len128,1-->,0 [0] | state_in_len130,1-->,0 [0] | strm134,1-->,0 [0] | tmp120,1-->strm134,2 [0] | next_in135,1-->tmp120,0 [0] | tmp121,1-->next_in135,2 [0] | incdec.ptr136,1-->tmp121,0 [0] | next_in135,2-->incdec.ptr136,1 [0] | strm137,1-->,0 [0] | tmp123,1-->strm137,2 [0] | avail_in138,1-->tmp123,0 [0] | strm140,1-->,0 [0] | tmp126,1-->strm140,2 [0] | total_in_lo32141,1-->tmp126,0 [0] | strm143,1-->,0 [0] | tmp129,1-->strm143,2 [0] | total_in_lo32144,1-->tmp129,0 [0] | strm148,1-->,0 [0] | tmp132,1-->strm148,2 [0] | total_in_hi32149,1-->tmp132,0 [0] | avail_in_expect152,1-->,0 [0] | 
+Number of GPUs initially constructed - 241
+
+------------------------------------
+Function : flush_RL
+Number of GPBs initially constructed -> 80
+GPB freq - 0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,0,0,
+state_in_ch,1-->,0 [0] | s,1-->s,1 [311] | state_in_ch,1-->,0 [0] | state_in_len,1-->,0 [0] | blockCRC,1-->,0 [0] | blockCRC2,1-->,0 [0] | arrayidx,1-->BZ2_crc32Table,0 [0] | blockCRC5,1-->,0 [0] | inUse,1-->,0 [0] | state_in_ch6,1-->,0 [0] | arrayidx8,1-->inUse,0 [0] | state_in_len9,1-->,0 [0] | block,1-->,0 [0] | tmp20,1-->block,2 [0] | nblock,1-->,0 [0] | arrayidx11,1-->tmp20,0 [0] | nblock12,1-->,0 [0] | block15,1-->,0 [0] | tmp27,1-->block15,2 [0] | nblock16,1-->,0 [0] | arrayidx18,1-->tmp27,0 [0] | nblock19,1-->,0 [0] | block21,1-->,0 [0] | tmp34,1-->block21,2 [0] | nblock22,1-->,0 [0] | arrayidx24,1-->tmp34,0 [0] | nblock25,1-->,0 [0] | block28,1-->,0 [0] | tmp41,1-->block28,2 [0] | nblock29,1-->,0 [0] | arrayidx31,1-->tmp41,0 [0] | nblock32,1-->,0 [0] | block34,1-->,0 [0] | tmp48,1-->block34,2 [0] | nblock35,1-->,0 [0] | arrayidx37,1-->tmp48,0 [0] | nblock38,1-->,0 [0] | block40,1-->,0 [0] | tmp55,1-->block40,2 [0] | nblock41,1-->,0 [0] | arrayidx43,1-->tmp55,0 [0] | nblock44,1-->,0 [0] | inUse46,1-->,0 [0] | state_in_len47,1-->,0 [0] | arrayidx49,1-->inUse46,0 [0] | block50,1-->,0 [0] | tmp65,1-->block50,2 [0] | nblock51,1-->,0 [0] | arrayidx53,1-->tmp65,0 [0] | nblock54,1-->,0 [0] | block56,1-->,0 [0] | tmp72,1-->block56,2 [0] | nblock57,1-->,0 [0] | arrayidx59,1-->tmp72,0 [0] | nblock60,1-->,0 [0] | block62,1-->,0 [0] | tmp79,1-->block62,2 [0] | nblock63,1-->,0 [0] | arrayidx65,1-->tmp79,0 [0] | nblock66,1-->,0 [0] | block68,1-->,0 [0] | tmp86,1-->block68,2 [0] | nblock69,1-->,0 [0] | arrayidx71,1-->tmp86,0 [0] | nblock72,1-->,0 [0] | state_in_len74,1-->,0 [0] | block77,1-->,0 [0] | tmp94,1-->block77,2 [0] | nblock78,1-->,0 [0] | arrayidx80,1-->tmp94,0 [0] | nblock81,1-->,0 [0] | s,1-->s,1 [312] | state_in_ch,1-->,0 [0] | state_in_len,1-->,0 [0] | 
+Number of GPUs initially constructed - 74
+
+------------------------------------
+Function : BZ2_bzlibVersion
+Number of GPBs initially constructed -> 3
+GPB freq - 0,0,0,
+
+Number of GPUs initially constructed - 0
+
+------------------------------------
+Function : BZ2_bz__AssertH__fail
